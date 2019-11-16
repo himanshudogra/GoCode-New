@@ -4,8 +4,10 @@ import (
 	"fmt"
 )
 
+const a int = 34
+
 func main() {
 
-	var a complex64 = complex(2, 4)
+	// const a int = 43
 	fmt.Printf("%v,%T\n", a, a)
 }
